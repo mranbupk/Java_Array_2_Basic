@@ -18,7 +18,7 @@ public class Solution {
 		for(int i=0;i<n;i++) {
 			arr[i]=Integer.parseInt(strNums[i]);
 		}
-		if(n>0 && n<=20) {
+		if(n>1 && n<=20) {
 			if(n%2==0) {
 				for(int i=0;i<n;i++) {
 					for(int j=i+1;j<n;j++) {
